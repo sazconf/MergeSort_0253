@@ -59,4 +59,16 @@ void mergesort(int low, int high) { // Step 1
         k++; 
     }
 
-   
+    // Step 5
+    for (int x = low; x <= high; x++) {
+        arr[x] = B[x]; // Step 5.a
+    }
+
+    // After merging, print the array
+    cout << "Array after merging: ";
+    for (int x = low; x <= high; x++) {
+        cout << arr[x] << " ";
+    }
+    cout << endl;
+}
+
