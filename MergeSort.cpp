@@ -19,3 +19,5 @@ void input() {
     }
 }
 
+// Create function to merge two sorted arrays
+void mergesort(
